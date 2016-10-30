@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="StyleSheet.css" type="text/css">
+        <link rel="stylesheet" href="http://localhost/font-awesome-4.4.0/css/font-awesome.min.css">
+       <meta charset="utf-8" />
+        <title>KAR CABS</title>
+    </head>
+    <body>
+	
+        <div id="header">
+		<div id="logo"><a href="home.html"><img src="uploads/KAR_logo.png" height="100px" width="100px"></a></div>
+		<div id="title">KAR CABS</div>
+		<div id="slogan">Hop in. Let's go!</div>
+		<div id="nav">
+		<ul>
+		<a href="feedback.html"><li><span class="fa fa-users"></span>&nbsp;Feedback</li></a>
+	    <a href="ratecard.html"><li><span class="fa fa-taxi"></span>&nbsp;Rate Card</a>
+		
+		</li>
+		<a href="#"><li><span class="fa fa-question"></span>&nbsp;About Us
+		<ul>
+		<a href="#"><li><span class="fa fa-phone"></span>&nbsp;Contact Us</li></a>
+		<a href="#"><li><span class="fa fa-question"></span>&nbsp;Who Are We</li></a>
+		</ul>
+		</li></a>
+		<a href="home.html"><li><span class="fa fa-home"></span>Home</li></a>
+
+		</ul>
+		</div>
+		</div>
+		<div class="col_1"><h2>Welcome to the Driver Portal!</h2>
+		<form method="get" action="ddetail.php">
+		Location:<br/><input type="text" name="loc"/><br/><br/>
+		Status:<br/><select name="status" ID="status">
+		<option value="Free">Free</option>
+		<option value="Waiting">Waiting</option>
+		</select><br/><br/>
+		
+		<input type="submit" name="submit" value="Submit"/>
+		</form>
+		</div>
+	</body>
+	</html>

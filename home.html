@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="StyleSheet.css" type="text/css">
+        <link rel="stylesheet" href="http://localhost/font-awesome-4.4.0/css/font-awesome.min.css">
+       <meta charset="utf-8" />
+        <title>KWICK KAR</title>
+    </head>
+    <body>
+	<script>
+ var image =  ["uploads/image(i).gif","uploads/image(ii).gif","uploads/image(iii).gif"];
+var i=0;
+ var renew=setInterval(function(){
+if(image.length== i){
+i=0;}
+else{
+document.getElementById("ad").src= image[i];
+i++;}
+},10000);
+</script>
+        <div id="header">
+		<div id="logo"><a href="home.html"><img src="uploads/KAR_logo.png" height="100px" width="100px"></a></div>
+		<div id="title">KWICK KAR</div>
+		<div id="slogan">Hop in. Let's go!</div>
+		<div id="nav">
+		<ul>
+		<a href="feedback.html"><li><span class="fa fa-users"></span>&nbsp;Feedback</li></a>
+	    <a href="ratecard.html"><li><span class="fa fa-inr"></span>&nbsp;Rate Card</a>
+		</li>
+		<a href="about_us.html"><li><span class="fa fa-question"></span>&nbsp;About Us
+		<ul>
+		<a href="#"><li><span class="fa fa-phone"></span>&nbsp;Contact Us</li></a>
+		<a href="about_us.html"><li><span class="fa fa-question"></span>&nbsp;Who Are We</li></a>
+		</ul>
+		</li></a>
+		<a href="home.html"><li><span class="fa fa-home"></span>Home</li></a>
+                                    
+                                      
+		</ul>
+		</div>
+		
+		</div>
+
+		                               <div class="col_0">
+                                          <img id="ad" src="uploads/image(i).gif" style="width:900px; height:150px;" alt="text"/>
+                                       <img>
+                                       </div>
+		<div class="col_1">
+		Welcome to KWICK KAR!<br><p>Book within seconds and get instant confirmations. Easy payment on the spot after successful termination of journey  . Booking cab will never be a headache again!</p><br> Our cars are audited for cleanliness, safety and comfort. Our drivers are well trained and reliable. Sit back and enjoy the KWICK KAR experience!</p><br>Hop in .Let's go! &nbsp;&nbsp;<img src="uploads/ani_taxi.gif"><br/><br/>
+		<img>
+		</div>
+		<div class="col_2"> <h1>Register</h1><br/>
+		If you aren't registered with us,do so now! Click on the link below and register.<br/><br/><br/>
+		<div id="button">
+		<a target="_blank" href="register_form.html"><input type="image" src="uploads/register_button.jpg" value="Register" width="200" height="50"></a>
+		</div></div>
+		
+		<div class="col_2"><h1>Login</h1><br/>
+		If you are a registered cutomer,then login to our portal from the link below!<br/><br/><br/>
+		<div id="button"><a href="login.html"><input type="image" src="uploads/login_button.jpg" name="Login" value="Login" width="200" height="50"></a> </div></div>
+		
+<div class="footer">
+<p>&copy; KWICK KAR, INC. ALL RIGHTS RESERVED</p>
+<p style="text-align:right;margin-right:40px;margin-top:-40px;"> CONTACT US
+<br>
+<b style="font-size:30px;">Call-&nbsp;&nbsp;&nbsp;(91)9890-420-420</b><br>
+<b><a href="mailto:riteshagicha@gmail.com">
+<font color="#FFCC00">Email-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;riteshagicha@gmail.com</a></b></font>
+</p>
+</div>
+</body>
+</html>
